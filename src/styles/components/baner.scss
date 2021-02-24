@@ -1,0 +1,45 @@
+.baner-map{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 71vh;
+}
+
+.baner-photo{
+    height: 71vh;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    /*background-image: url('../assets/header.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    &__img{
+        width: 100%;
+        height: 100%;
+    }
+}
+/*
+@media (min-width: 1px) and (max-width: 480px){
+    .baner-photo{
+        height: 40vh;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .baner-photo{
+        height: 40vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .baner-photo{
+        height: 60vh;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .baner-photo{
+        height: 70vh;
+    }
+}  */
