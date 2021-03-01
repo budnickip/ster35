@@ -59,6 +59,10 @@
 
     &__item{
         padding: 0 1em;
+        &:nth-child(2){
+            border-left: 2px solid #f3f1f0;
+            border-right: 2px solid #f3f1f0;
+        }
     }
 
     &__icon{
@@ -80,4 +84,12 @@
             cursor: pointer;
         }
     }
+}
+
+
+@media (min-width: 1px) and (max-width: 480px) {
+    .popup{
+        width: 96%;
+    }
+
 }
