@@ -1,0 +1,1 @@
+Po kliknięciu kontakt z menu może otwórz popupa na większość ekranu z formularzem kontaktowym i jakimiś tam danymi

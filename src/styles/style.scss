@@ -1,4 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 @import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
+@import "./abstracts/variables.scss";
 @import "./components/baner.scss";
+@import "./components/navigation.scss";
+@import "./components/information.scss";
+@import "./components/infoTable.scss";
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+*{
+    scroll-behavior: smooth;
+}

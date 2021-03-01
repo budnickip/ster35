@@ -1,0 +1,31 @@
+.info-table{
+    margin-top: 2em;
+    background-color: #f3f1f0;
+    padding: 3em;
+}
+
+.more-finger{
+    margin-top: 1em;
+}
+
+.more-info{
+    margin-top: 1em;
+    &__icon{
+        color: var(--ornamets, green);
+        font-size: 3rem;
+    }
+
+    &__items{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item{
+        margin: 0.6em 1em;
+    }
+}
+
+.bold-item{
+    font-weight: 600;
+}

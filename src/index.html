@@ -6,17 +6,117 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ster</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="container-fluid header">
+        <nav class="navigation">
+            <ul class="navigation__items">
+                <li class="navigation__item">
+                    <a href="#about" class="navigation__link" rel="nofollow">O INWESTYCJI</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#career" class="navigation__link" rel="nofollow">TABELA APARTAMENTÓW</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#portfolio" class="navigation__link" rel="nofollow">KRONIKA BUDOWY</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#contact" class="navigation__link" rel="nofollow">STANDARD</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#contact" class="navigation__link" rel="nofollow">KONTAKT</a>
+                </li>
+            </ul>
+            <div class="logo">
+                <a class="logo__link" href="#"><img src="./assets/logo.png" class="logo__img" alt="caveral" /></a>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+        </nav>
         <section class="row baner">
-            <div class="col-12 col-md-4 d-none d-md-block baner-map">
+            <!--<div class="col-12 col-md-4 d-none d-md-block baner-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1188.64924984807!2d14.507852712047717!3d53.42737089527972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa092d2cda8581%3A0x41029f9f8a929244!2sZielonog%C3%B3rska%2031%2C%2071-899%20Szczecin!5e0!3m2!1spl!2spl!4v1614157808722!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div> 
-            <div class="col-12 col-md-8 baner-photo">
+            </div>--> 
+            <div class="col-12 baner-photo">
                 <img class="baner-photo__img" src="assets/header.jpg" alt="Biuro Szeligowskiego"/>
             </div>
         </section>
     </header>
+    <main class="information" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 information-col">
+                    <h1 class="information__header">Wasz tytuł</h1>
+                </div>
+            </div>
+        </div>
+        <div class="header-line"></div>
+        <div class="container">
+            <div class="row info">
+                <div class="col-12 col-lg-7 information-left">
+                    <p class="information-left__seo"><strong>Nowoczesna powierzchnia biurowa w Szczecinie przy ulicy Zielonogórskiej 31 (3 km centrum miasta)</strong></p>
+                    <p>Inwestycja powstaje w Szczecinie tuż przy ul. 26-go Kwietnia,  jednej z głównych alteri komunikacyjnej łączącej centrum miasta  z północnymi dzielnicami Szczecina oraz sypialniami Szczecina takimi jak:</p>
+                    <ul class="information-left__items">
+                        <li class="information-left__item"><span class="fas fa-check information-left__icon">&nbsp;</span> Mierzyn</li>
+                        <li class="information-left__item"><span class="fas fa-check information-left__icon">&nbsp;</span> Bezrzecze</li>
+                        <li class="information-left__item"><span class="fas fa-check information-left__icon">&nbsp;</span> Wołoczkowo</li>
+                        <li class="information-left__item"><span class="fas fa-check information-left__icon">&nbsp;</span> Dobra</li>
+                    </ul>
+                    <p>
+                        Inwestycja graniczy bezpośrednio z Osiedlem Kaliny, dzielnicą domów jednorodzinnych Świerczewo, dzielnicami miasta Pogodno, Gumieńce, Turzyn. 
+                    </p>
+                    <p>
+                        Nasza inwestycja w formie parku handlowo-burowego-usługowego jest zgodna z nowymi trendami wymuszonymi przez Covid. Powierzchnie handlowe dostępne bezpośrednio z parkingu bez części wspólnych. Klimatyzacja i wentylacja budynku taka jak w nowoczesnych szpitalach, tzn z pełną wymianą powietrza wewnątrz budynku.
+                    </p>
+                    <p>
+                        Pozostało do wynajęcia pierwsze piętro w budynku, biura od 200 do 600m2.
+                    </p>
+                    <p>
+                        Cena od 59 pln/m2 plus eksploatacja.
+                    </p>
+                    <p>
+                        Termin oddania inwestycji to I kwartał 2022.
+                    </p>
+                    <p>
+                        Zapraszamy do długoterminowej współpracy.
+                    </p>
+                    
+                </div>
+                <div class="col-12 col-lg-4 information-right">
+                    <h3>
+                        Atuty
+                    </h3>
+                    <ul class="advantages__items">
+                        <li class="advantages__item"><img class="advantages__img" src="./assets/city.png" alt="osiedle mieszkaniowe"/>bliskość osiedli</li>
+                        <li class="advantages__item"><div class="advantages__long"><img class="advantages__img" src="./assets/bus.png" alt="bus"/><p class="advantages__paragraph">arteria komunikacyjna łącząca centrum z zachodnimi dzielnicami Szczecina</p></div></li>
+                        <li class="advantages__item"><img class="advantages__img" src="./assets/school.png" alt="szkoła"/>sąsiedztwo szkoły, przedszkola</li>
+                        <li class="advantages__item"><img class="advantages__img" src="./assets/parking.png" alt="parking"/>wejście bezpośrednio z parkingu</li>
+                        <li class="advantages__item"><img class="advantages__img" src="./assets/basen.png" alt="basen"/>pływalnia w pobliżu</li>
+                        <li class="advantages__item"><img class="advantages__img" src="./assets/shop.png" alt="shop"/>sklepy(netto, action)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row info-table">
+                <div class="col-12 col-md-2 more-finger text-center">
+                    <span class="far fa-hand-point-right more-info__icon d-none d-md-block"></span>
+                    <span class="far fa-hand-point-down more-info__icon d-md-none"></span>
+                </div>
+                <div class="col-12 col-md-10 more-info">
+                    <ul class="more-info__items">
+                        <li class="more-info__item bold-item"><span class="fas fa-check information-left__icon">&nbsp;</span> Termin oddania inwestycji: I kwartał 2022</li>
+                        <li class="more-info__item bold-item"><span class="fas fa-check information-left__icon">&nbsp;</span> Do wynajęcia pierwsze piętro w budynku</li>
+                        <li class="more-info__item bold-item"><span class="fas fa-check information-left__icon">&nbsp;</span> Biura od 200 do 600m2</li>
+                        <li class="more-info__item bold-item"><span class="fas fa-check information-left__icon">&nbsp;</span> Cena od 59 pln/m2 plus eksploatacja</li>
+                        <li class="more-info__item bold-item"><span class="fas fa-check information-left__icon">&nbsp;</span> Zapraszamy do długoterminowej współpracy</li>
+                        <li class="more-info__item bold-item"><span class="fas fa-check information-left__icon">&nbsp;</span> Coś więcej chcecie tutaj dodać?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
 </body>
 </html>
