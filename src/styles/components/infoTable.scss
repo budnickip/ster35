@@ -29,3 +29,16 @@
 .bold-item{
     font-weight: 600;
 }
+
+@media (min-width: 1px) and (max-width: 480px) {
+    .info-table{
+        padding: 1em;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .info-table{
+        padding: 1em;
+    }
+}
