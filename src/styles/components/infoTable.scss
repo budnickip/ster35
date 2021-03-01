@@ -35,10 +35,17 @@
         padding: 1em;
     }
 
+    .more-info__items{
+        padding-left: 10px;
+    }
+
 }
 
 @media (min-width: 481px) and (max-width: 768px){
     .info-table{
         padding: 1em;
+    }
+    .more-info__items{
+        padding-left: 10px;
     }
 }
