@@ -121,9 +121,36 @@
             </div>
             <div id="body-mail" class="popup-body">
                 <h3>Wyślij wiadomość</h3>
+                <form class="contact-form__form" name="contact_form">
+                    <input class="contact-form__input" type="text" name="name" id="name" placeholder="Imię i nazwisko" required>
+                    <input class="contact-form__input" type="email" name="email" id="email" placeholder="E-mail*" required>
+                    <input class="contact-form__input" type="text" name="topic" id="topic" placeholder="Telefon*">
+                    <textarea class="contact-form__textarea" name="message" id="message">Jestem zainteresowany wynajmem biura. Proszę o pilny kontakt.</textarea>
+                    <button class="contact-form__button" type="submit" title="Wypełnij wszystkie wymagane pola oraz zaznacz wszystkie zgody.">WYŚLIJ</button>
+                    <div class="checkboxes">
+                        <input type="checkbox" id="zgodaoferta" name="zgodaoferta" class="contact-form__checkbox">
+                        <label for="zgodaoferta" class="checkbox-label">Wyrażam zgodę na gromadzenie moich danych osobowych w celu przygotowania i przedstawienia oferty handlowej.</label>
+                    </div>
+                    <div class="checkboxes">
+                        <input type="checkbox" id="zgodaemail" name="zgodaemail" class="contact-form__checkbox">
+                        <label for="zgodaemail" class="checkbox-label">Wyrażam zgodę na otrzymywanie informacji handlowej za pomocą środków komunikacji elektronicznej, w szczególności poczty elektronicznej i telefonu komórkowego skierowanej do mnie.</label>
+                    </div>
+                </form>
             </div>
             <div id="body-phone" class="popup-body">
                 <h3>Zadzwoń do nas</h3>
+                <p class="body-phone__paragraph-small">Dane kontaktowe</p>
+                <div class="body-phone-info">
+                    <div class="body-phone-photo">
+                        <img class="body-phone__img" src="assets/logoContact.png" alt="Ster 31" />
+                    </div>
+                    <div class="body-phone-description">
+                        <h3>Oddział Szczecin</h3>
+                        <p class="body-phone-description__paragraph">ul. Wojska Polskiego 184c</p>
+                        <p class="body-phone-description__paragraph">Biuro czynne: pon. – pt.: 09:00 – 17.00</p>
+                        <a class="body-phone-description__link" href="tel:+48501501501">+48 501 581 501</a>
+                    </div>
+                </div>
             </div>
             <div id="body-info" class="popup-body">
                 <h3>Napisz wiadomość e-mail</h3>
