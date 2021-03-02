@@ -17,7 +17,7 @@ const contactNav = () =>{
                 phoneBody.style.display = "none";
                 mailBody.style.display = "flex";
                 mailBody.style.opacity = 1;
-            }, 700)
+            }, 500)
         }
 
         if(info.classList.contains('active')){
@@ -27,7 +27,7 @@ const contactNav = () =>{
                 infoBody.style.display = "none";
                 mailBody.style.display = "flex";
                 mailBody.style.opacity = 1;
-            }, 700)
+            }, 500)
           }   
     })
 
@@ -40,7 +40,7 @@ const contactNav = () =>{
                 mailBody.style.display = "none";
                 infoBody.style.display = "flex";
                 infoBody.style.opacity = 1;
-            }, 700)
+            }, 500)
         }
         
         if(phone.classList.contains('active')){
@@ -50,7 +50,7 @@ const contactNav = () =>{
                 phoneBody.style.display = "none";
                 infoBody.style.display = "flex";
                 infoBody.style.opacity = 1;
-            }, 700)
+            }, 500)
         }
 
     })

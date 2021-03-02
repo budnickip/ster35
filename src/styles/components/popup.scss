@@ -94,7 +94,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    transition: .9s;
+    transition: .5s;
 }
 
 #body-phone{
@@ -195,12 +195,48 @@
 .body-phone-info{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .body-phone{
     &__img{
-        width: 100px;
+        width: 70px;
+    }
+    &__header{
+        width: 100%;
+        text-align: center;
+    }
+    &__paragraph-small{
+        width: 100%;
+        text-align: center;
+        font-size: 0.85rem;
+        color: rgba(110, 110, 110, 0.45);
+    }
+}
 
+.body-phone-description{
+    margin-left: 10px;
+
+    &__paragraph{
+        margin-bottom: 10px;
+    }
+    &__paragraph-small{
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    &__link{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        color: var(--ornamets, green);
+        transition: .4s;
+
+        &:hover{
+            text-decoration: none;
+            color: var(--ornamets, green);
+            opacity: 0.7;
+        }
     }
 }
 
