@@ -50,6 +50,13 @@
         text-align: center;
     }
 
+    &__button--ask{
+        text-align: right;
+    }
+    &__button--book{
+        text-align: left;
+    }
+
     &__available{
         display: flex;
         align-items: center;
@@ -104,7 +111,6 @@
     } */
 
     &__ask{
-        margin: 0px 8px;
         padding: 10px 20px;
         color: var(--textBlack, black);
         border: 2px solid var(--ornamets, green);
