@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+	crossorigin=""/>
 </head>
 <body>
     <header class="container-fluid header">
@@ -112,15 +115,17 @@
                 Lokale na wynajem
             </h2>
         </section>
-        <embed src="./assets/locals/01.pdf" width="100px" height="100px" class="pdf-files-none" />
-        <embed src="./assets/locals/02.pdf" width="100px" height="100px" class="pdf-files-none" />
-        <embed src="./assets/locals/03.pdf" width="100px" height="100px" class="pdf-files-none" />
-        <embed src="./assets/locals/04.pdf" width="100px" height="100px" class="pdf-files-none" />
-        <embed src="./assets/locals/11.pdf" width="100px" height="100px" class="pdf-files-none" />
-        <embed src="./assets/locals/12.pdf" width="100px" height="100px" class="pdf-files-none" />
-        <embed src="./assets/locals/13.pdf" width="100px" height="100px" class="pdf-files-none" />
-        <embed src="./assets/locals/14.pdf" width="100px" height="100px" class="pdf-files-none" />
-        <embed src="./assets/locals/21.pdf" width="100px" height="100px" class="pdf-files-none" />
+        <div>
+            <embed src="./assets/locals/01.pdf" width="100px" height="100px" class="pdf-files-none" />
+            <embed src="./assets/locals/02.pdf" width="100px" height="100px" class="pdf-files-none" />
+            <embed src="./assets/locals/03.pdf" width="100px" height="100px" class="pdf-files-none" />
+            <embed src="./assets/locals/04.pdf" width="100px" height="100px" class="pdf-files-none" />
+            <embed src="./assets/locals/11.pdf" width="100px" height="100px" class="pdf-files-none" />
+            <embed src="./assets/locals/12.pdf" width="100px" height="100px" class="pdf-files-none" />
+            <embed src="./assets/locals/13.pdf" width="100px" height="100px" class="pdf-files-none" />
+            <embed src="./assets/locals/14.pdf" width="100px" height="100px" class="pdf-files-none" />
+            <embed src="./assets/locals/21.pdf" width="100px" height="100px" class="pdf-files-none" />
+        </div>
         <div class="header-line"></div>
         <section class="container locals">
             <table cellspacing="0" cellpadding="0" class="table">
@@ -292,6 +297,15 @@
                 </tbody>
             </table>
         </section>
+        <section id="location" class="container locals-header">
+            <h2 class="locals-header__title">
+                Lokalizacja
+            </h2>
+        </section>
+        <div class="header-line"></div>
+        <section class="container location">
+            <div id="mapid"></div>
+        </section>
 
     </main>
 
@@ -358,5 +372,8 @@
             </div>
         </div>
     </aside>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+	crossorigin=""></script>
 </body>
 </html>
