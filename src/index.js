@@ -5,10 +5,12 @@ import './scripts/menu.js';
 import menu from './scripts/menu.js';
 import contact from './scripts/contact.js';
 import contactNav from './scripts/contact-nav.js';
+import facebook from './scripts/facebook.js';
 
 menu()
 contact()
 contactNav()
+//facebook()
 
 var mymap = L.map('mapid').setView([53.427371, 14.508916], 16);
 //mymap.dragging.disable();

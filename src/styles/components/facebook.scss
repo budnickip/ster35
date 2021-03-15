@@ -6,6 +6,7 @@
 }
 
 .facebook{
+    padding: 0;
     margin-bottom: 2em;
     &__link{
         margin-top: 2em;
@@ -29,4 +30,24 @@
 
 .facebook-posts{
     margin-bottom: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fb-post-width{
+    width: 500px;
+}
+
+@media (min-width: 1px) and (max-width: 480px){
+    .fb-post-width{
+        width: unset;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .fb-post-width{
+        width: unset;
+    }
 }
