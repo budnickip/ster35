@@ -11,6 +11,9 @@ contact()
 contactNav()
 
 var mymap = L.map('mapid').setView([53.427371, 14.508916], 16);
+//mymap.dragging.disable();
+//mymap.zoomControl.remove();
+mymap.scrollWheelZoom.disable();
 
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
