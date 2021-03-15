@@ -10,99 +10,101 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="container-fluid header">
-        <nav class="navigation">
-            <ul class="navigation__items">
-                <li class="navigation__item">
-                    <a href="index.html#about" class="navigation__link" rel="nofollow">O INWESTYCJI</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="index.html#locals" class="navigation__link" rel="nofollow">LOKALE NA WYNAJEM</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="plan.html" class="navigation__link">INTERAKTYWNY PLAN</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="index.html#portfolio" class="navigation__link" rel="nofollow">KRONIKA BUDOWY</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="index.html#contact" class="navigation__link" rel="nofollow">STANDARD</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="index.html#contact" id="contact-up" class="navigation__link open-popup" rel="nofollow">KONTAKT</a>
-                </li>
-            </ul>
-            <div class="logo">
-                <a class="logo__link" href="index.html"><img src="./assets/logo.png" class="logo__img" alt="caveral" /></a>
+    <div class="plan">
+        <header class="container-fluid header">
+            <nav class="navigation">
+                <ul class="navigation__items">
+                    <li class="navigation__item">
+                        <a href="index.html#about" class="navigation__link" rel="nofollow">O INWESTYCJI</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="index.html#locals" class="navigation__link" rel="nofollow">LOKALE NA WYNAJEM</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="plan.html" class="navigation__link">INTERAKTYWNY PLAN</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="index.html#portfolio" class="navigation__link" rel="nofollow">KRONIKA BUDOWY</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="index.html#contact" class="navigation__link" rel="nofollow">STANDARD</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="index.html#contact" id="contact-up" class="navigation__link open-popup" rel="nofollow">KONTAKT</a>
+                    </li>
+                </ul>
+                <div class="logo">
+                    <a class="logo__link" href="index.html"><img src="./assets/logo.png" class="logo__img" alt="caveral" /></a>
+                </div>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+            </nav>
+        </header>
+    
+        <main class="interactive container-fluid">
+            <!--<img src="assets/interactive.jpg" class="img-fluid" alt="interaktywny plan"/>-->
+            <!--Dwie ostatnie wartości w viewBox muszą wynosić tyle samo co szerokość i wysokość obrazka-->
+            <svg class="interactive-build" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 753">
+                <g>
+                    <a href="groundfloor.html" class="parter">
+                        <title>Parter</title>
+                          <path class="mask" d="M62,554 L863,553 863,496 37,478 z"/>
+                    </a>
+                </g>
+                <g>
+                    <a href="firstfloor.html" class="pierwsze">
+                        <title>Pierwsze piętro</title>
+                        <path class="mask" d="M45,468 L863,493 863,424 40,358 z"  />
+                    </a>
+                </g>
+                <g>
+                    <a href="secondfloor.html" class="drugie">
+                        <title>Drugie piętro</title>
+                        <path class="mask" d="M863,421 L865,412 913,395 913,358 190,253 148,271 145,329 44,326 42,338 39,337 38,358 z"/>
+                    </a>
+                </g>
+    
+            </svg>
+        </main>
+        <main class="interactive-mobile container-fluid">
+            <!--<img src="assets/interactive.jpg" class="img-fluid" alt="interaktywny plan"/>-->
+            <!--Dwie ostatnie wartości w viewBox muszą wynosić tyle samo co szerokość i wysokość obrazka-->
+            <svg class="interactive-build-mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 919 433">
+                <g>
+                    <a href="groundfloor.html" class="parter">
+                        <title>Parter</title>
+                          <path class="mask" d="M864,317 L35,305 69,379 862,376 z"/>
+                    </a>
+                </g>
+                <g>
+                    <a href="firstfloor.html" class="pierwsze">
+                        <title>Pierwsze piętro</title>
+                        <path class="mask" d="M33,298 L863,315 864,241 36,179 z"  />
+                    </a>
+                </g>
+                <g>
+                    <a href="secondfloor.html" class="drugie">
+                        <title>Drugie piętro</title>
+                        <path class="mask" d="M36,158 L44,158 43,148 111,151 149,152 148,94 189,74 913,178 911,215 863,234 862,241 36,178 z"/>
+                    </a>
+                </g>
+    
+            </svg>
+        </main>
+    
+        <footer class="footer">
+            <div class="footer-policy">
+                <a href="#" class="footer__link">Polityka prywatności oraz RODO</a>
             </div>
-            <div class="menu-btn">
-                <div class="menu-btn__burger"></div>
+            <div class="footer-copyright">
+                <p>&copy; 2021 <strong>Ster 31</strong> Wszelkie prawa zastrzeżone</p>
             </div>
-        </nav>
-    </header>
-
-    <main class="interactive container-fluid">
-        <!--<img src="assets/interactive.jpg" class="img-fluid" alt="interaktywny plan"/>-->
-        <!--Dwie ostatnie wartości w viewBox muszą wynosić tyle samo co szerokość i wysokość obrazka-->
-        <svg class="interactive-build" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 753">
-            <g>
-                <a href="groundfloor.html" class="parter">
-                    <title>Parter</title>
-                      <path class="mask" d="M62,554 L863,553 863,496 37,478 z"/>
-                </a>
-            </g>
-            <g>
-                <a href="firstfloor.html" class="pierwsze">
-                    <title>Pierwsze piętro</title>
-                    <path class="mask" d="M45,468 L863,493 863,424 40,358 z"  />
-                </a>
-            </g>
-            <g>
-                <a href="secondfloor.html" class="drugie">
-                    <title>Drugie piętro</title>
-                    <path class="mask" d="M863,421 L865,412 913,395 913,358 190,253 148,271 145,329 44,326 42,338 39,337 38,358 z"/>
-                </a>
-            </g>
-
-        </svg>
-    </main>
-    <main class="interactive-mobile container-fluid">
-        <!--<img src="assets/interactive.jpg" class="img-fluid" alt="interaktywny plan"/>-->
-        <!--Dwie ostatnie wartości w viewBox muszą wynosić tyle samo co szerokość i wysokość obrazka-->
-        <svg class="interactive-build-mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 919 433">
-            <g>
-                <a href="groundfloor.html" class="parter">
-                    <title>Parter</title>
-                      <path class="mask" d="M864,317 L35,305 69,379 862,376 z"/>
-                </a>
-            </g>
-            <g>
-                <a href="firstfloor.html" class="pierwsze">
-                    <title>Pierwsze piętro</title>
-                    <path class="mask" d="M33,298 L863,315 864,241 36,179 z"  />
-                </a>
-            </g>
-            <g>
-                <a href="secondfloor.html" class="drugie">
-                    <title>Drugie piętro</title>
-                    <path class="mask" d="M36,158 L44,158 43,148 111,151 149,152 148,94 189,74 913,178 911,215 863,234 862,241 36,178 z"/>
-                </a>
-            </g>
-
-        </svg>
-    </main>
-
-    <footer class="footer">
-        <div class="footer-policy">
-            <a href="#" class="footer__link">Polityka prywatności oraz RODO</a>
-        </div>
-        <div class="footer-copyright">
-            <p>&copy; 2021 <strong>Ster 31</strong> Wszelkie prawa zastrzeżone</p>
-        </div>
-        <div class="footer-author">
-            <p>Projekt i wykonanie <strong>Patryk Budnicki</strong> kontakt: <a href="mailto:p.budnicki95@gmail.com" class="footer__link"><span class="far fa-envelope"></span> p.budnicki95@gmail.com</a></p>
-        </div>
-    </footer>
+            <div class="footer-author">
+                <p>Projekt i wykonanie <strong>Patryk Budnicki</strong> kontakt: <a href="mailto:p.budnicki95@gmail.com" class="footer__link"><span class="far fa-envelope"></span> p.budnicki95@gmail.com</a></p>
+            </div>
+        </footer>
+    </div>
 
     <aside class="popup-layer">
     </aside>
