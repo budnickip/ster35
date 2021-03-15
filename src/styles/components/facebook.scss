@@ -1,0 +1,32 @@
+.fb-post, .fb-video{
+    margin: 1em;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.facebook{
+    margin-bottom: 2em;
+    &__link{
+        margin-top: 2em;
+        margin: 1em;
+        padding: 10px 20px;
+        color: var(--textBlack, black);
+        border: 2px solid var(--ornamets, green);
+        cursor: pointer;
+        -webkit-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.1);
+        box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.1);
+        transition: .6s;
+        position: relative;
+        &:hover{
+            text-decoration: none;
+            color: white;
+            background-color: var(--ornamets, green);
+        }
+    }
+}
+
+.facebook-posts{
+    margin-bottom: 1.2em;
+}
