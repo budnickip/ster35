@@ -7,7 +7,7 @@ const contact = () =>{
 
     const textAreaText = document.querySelector('.contact-form__textarea')
 
-    contactBtn.addEventListener('click', () =>{
+    contactBtn?.addEventListener('click', () =>{
         container.style.display = "flex";
         layer.style.display = "block";
     })

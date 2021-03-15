@@ -14,26 +14,26 @@
         <nav class="navigation">
             <ul class="navigation__items">
                 <li class="navigation__item">
-                    <a href="#about" class="navigation__link" rel="nofollow">O INWESTYCJI</a>
+                    <a href="index.html#about" class="navigation__link" rel="nofollow">O INWESTYCJI</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#career" class="navigation__link" rel="nofollow">LOKALE NA WYNAJEM</a>
+                    <a href="index.html#career" class="navigation__link" rel="nofollow">LOKALE NA WYNAJEM</a>
                 </li>
                 <li class="navigation__item">
                     <a href="plan.html" class="navigation__link">INTERAKTYWNY PLAN</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#portfolio" class="navigation__link" rel="nofollow">KRONIKA BUDOWY</a>
+                    <a href="index.html#portfolio" class="navigation__link" rel="nofollow">KRONIKA BUDOWY</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#contact" class="navigation__link" rel="nofollow">STANDARD</a>
+                    <a href="index.html#contact" class="navigation__link" rel="nofollow">STANDARD</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#contact" id="contact-up" class="navigation__link open-popup" rel="nofollow">KONTAKT</a>
+                    <a href="index.html#contact" id="contact-up" class="navigation__link open-popup" rel="nofollow">KONTAKT</a>
                 </li>
             </ul>
             <div class="logo">
-                <a class="logo__link" href="#"><img src="./assets/logo.png" class="logo__img" alt="caveral" /></a>
+                <a class="logo__link" href="index.html"><img src="./assets/logo.png" class="logo__img" alt="caveral" /></a>
             </div>
             <div class="menu-btn">
                 <div class="menu-btn__burger"></div>
@@ -65,5 +65,66 @@
 
         </svg>
     </main>
+
+    <aside class="popup-container">
+        <div class="popup">
+            <div class="popup-nav">
+                <span class="fas fa-times popup-nav__close"></span>
+                <ul class="popup-nav__items">
+                    <li class="popup-nav__item"><span id="popup-mail" class="far fa-envelope popup-nav__icon active"></span></li>
+                    <li class="popup-nav__item"><span id="popup-phone" class="fas fa-phone popup-nav__icon"></span></li>
+                    <li class="popup-nav__item"><span id="popup-info" class="far fa-edit popup-nav__icon"></span></li>
+                </ul>
+            </div>
+            <div id="body-mail" class="popup-body">
+                <h3>Wyślij wiadomość</h3>
+                <form class="contact-form__form" name="contact_form">
+                    <input class="contact-form__input" type="text" name="name" id="name" placeholder="Imię i nazwisko" required>
+                    <input class="contact-form__input" type="email" name="email" id="email" placeholder="E-mail*" required>
+                    <input class="contact-form__input" type="text" name="topic" id="topic" placeholder="Telefon*">
+                    <textarea class="contact-form__textarea" name="message" id="message">Jestem zainteresowany wynajmem biura. Proszę o pilny kontakt.</textarea>
+                    <button class="contact-form__button" type="submit" title="Wypełnij wszystkie wymagane pola oraz zaznacz wszystkie zgody.">WYŚLIJ</button>
+                    <div class="checkboxes">
+                        <input type="checkbox" id="zgodaoferta" name="zgodaoferta" class="contact-form__checkbox">
+                        <label for="zgodaoferta" class="checkbox-label">Wyrażam zgodę na gromadzenie moich danych osobowych w celu przygotowania i przedstawienia oferty handlowej.</label>
+                    </div>
+                    <div class="checkboxes">
+                        <input type="checkbox" id="zgodaemail" name="zgodaemail" class="contact-form__checkbox">
+                        <label for="zgodaemail" class="checkbox-label">Wyrażam zgodę na otrzymywanie informacji handlowej za pomocą środków komunikacji elektronicznej, w szczególności poczty elektronicznej i telefonu komórkowego skierowanej do mnie.</label>
+                    </div>
+                </form>
+            </div>
+            <div id="body-phone" class="popup-body">
+                <h3 class="body-phone__header">Zadzwoń do nas</h3>
+                <p class="body-phone__paragraph-small">Dane kontaktowe</p>
+                <div class="body-phone-info">
+                    <div class="body-phone-photo">
+                        <img class="body-phone__img" src="assets/logoContact.png" alt="Ster 31" />
+                    </div>
+                    <div class="body-phone-description">
+                        <p class="body-phone-description__paragraph">Oddział Szczecin</p>
+                        <p class="body-phone-description__paragraph-small">ul. Wojska Polskiego 184c</p>
+                        <p class="body-phone-description__paragraph-small">Biuro czynne: pon. – pt.: 09:00 – 17.00</p>
+                        <a class="body-phone-description__link" href="tel:+48501501501">+48 501 581 501</a>
+                    </div>
+                </div>
+            </div>
+            <div id="body-info" class="popup-body">
+                <h3 class="body-phone__header">Napisz wiadomość e-mail</h3>
+                <p class="body-phone__paragraph-small">Dane kontaktowe</p>
+                <div class="body-phone-info">
+                    <div class="body-phone-photo">
+                        <img class="body-phone__img" src="assets/logoContact.png" alt="Ster 31" />
+                    </div>
+                    <div class="body-phone-description">
+                        <p class="body-phone-description__paragraph">Oddział Szczecin</p>
+                        <p class="body-phone-description__paragraph-small">ul. Wojska Polskiego 184c</p>
+                        <p class="body-phone-description__paragraph-small">Biuro czynne: pon. – pt.: 09:00 – 17.00</p>
+                        <a class="body-phone-description__link" href="mailto:caveral@caveral.pl">wasz@email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
 </body>
 </html>

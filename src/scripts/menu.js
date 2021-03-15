@@ -19,7 +19,7 @@ const menu = () =>{
     });
 
 
-    menuBtn.addEventListener('click', ()=>{
+    menuBtn?.addEventListener('click', ()=>{
         if(!menuOpen){
             menuBtn.classList.add('open')
             navbarLinks.classList.add('active')
