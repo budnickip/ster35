@@ -1,0 +1,12 @@
+.standard-row{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.standard-col{
+    &__paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
