@@ -99,6 +99,18 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: './src/plan.html',
       filename: './plan.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/groundfloor.html',
+      filename: './groundfloor.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/firstfloor.html',
+      filename: './firstfloor.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/secondfloor.html',
+      filename: './secondfloor.html'
     })
   ]
 }

@@ -2,10 +2,29 @@
     padding: 0;
 }
 
-svg {
+.floors{
+    padding: 0;
+    margin-top: 5em;
+}
+
+.interactive-build {
     background-image: url('../assets/interactive.jpg');
     background-size: 100% 100%;
   }
+
+.interactive-ground{
+    background-image: url('../assets/groundfloor.png');
+    background-size: 100% 100%;
+}
+.interactive-first{
+    background-image: url('../assets/firstfloor.png');
+    background-size: 100% 100%;
+}
+
+.interactive-second{
+    background-image: url('../assets/secondfloor.png');
+    background-size: 100% 100%;
+}
   path {
     fill: transparent;
     cursor: pointer;
@@ -16,6 +35,12 @@ svg {
    fill:  var(--ornamets, green);
    opacity: 0.5;
    cursor: pointer;
+  }
+
+  svg a:hover .mask--unavailable{
+    fill:  red;
+    opacity: 0.5;
+    cursor: pointer; 
   }
 
   .mask{
