@@ -52,6 +52,12 @@
     cursor: pointer; 
   }
 
+  svg a:hover .mask--booked{
+    fill:  orange;
+    opacity: 0.5;
+    cursor: pointer; 
+  }
+
   .mask{
       z-index: 5;
   }

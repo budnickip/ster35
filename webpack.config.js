@@ -111,6 +111,10 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: './src/secondfloor.html',
       filename: './secondfloor.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/rodo.html',
+      filename: './rodo.html'
     })
   ]
 }
