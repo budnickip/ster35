@@ -1,0 +1,10 @@
+.nameTextError, .emailTextError, .messageTextError, .zgodaTextError, .zgodaTextError{
+    font-size: 0.8rem;
+    font-style: italic;
+    color: red;
+    width: 100%;
+ }
+
+ .nameInputError, .emailInputError, .messageInputError{
+    border: 2px solid red;
+ }
