@@ -5,6 +5,8 @@
 .locals{
     overflow-x: auto;
     border: none;
+    transform: translateY(150px);
+    transition: .8s;
     &::-webkit-scrollbar-track{
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
         -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -18,6 +20,9 @@
     &::-webkit-scrollbar-thumb{
         background-color: var(--ornamets, green);
     }
+}
+.activeLocals{
+    transform: translateY(0);
 }
 
 .table{

@@ -61,6 +61,9 @@
         width: 30px;
         height: 30px;
         margin-right: 0.7em;
+        transform: translateX(-30px);
+        opacity: 0;
+        transition: .8s;
     }
 
     &__long{
@@ -71,4 +74,9 @@
     &__paragraph{
         margin-bottom: 0;
     }
+}
+
+.active-photo{
+    transform: translateX(0px);
+    opacity: 1;
 }
