@@ -1,4 +1,4 @@
-.more-info__icon{
+.more-info__icon--animation{
     animation: move-info-right;
     animation-iteration-count:infinite;
     animation-duration: 8s;
@@ -41,14 +41,14 @@
 }
 
 @media (min-width: 1px) and (max-width: 480px) {
-    .more-info__icon{
+    .more-info__icon--animation{
         animation: move-info-down;
         animation-iteration-count:infinite;
         animation-duration: 8s;
     }
 }
 @media (min-width: 481px) and (max-width: 768px){
-    .more-info__icon{
+    .more-info__icon--animation{
         animation: move-info-down;
         animation-iteration-count:infinite;
         animation-duration: 8s;
