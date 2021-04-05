@@ -1,12 +1,13 @@
-.standard-row{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+.standard__header{
+    font-size: 1.2em;
+    margin: 2em 0 1em 1em;
+    font-weight: 500;
 }
 
 .standard-col{
     &__paragraph{
         display: flex;
-        justify-content: center;
+        
         align-items: center;
     }
 }
