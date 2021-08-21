@@ -1,1 +1,1 @@
-live: https://budnickip.github.io/ster35/
+live: http://ster31.pl/
